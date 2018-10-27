@@ -15,5 +15,92 @@ html { box-sizing: border-box; }
 
 
 body {
-    background-color: #bdc3c7;
+	background-color: #bdc3c7;
+	width: 250px;
+	margin-left: 15px;
+	margin-top: 25px;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #bdc3c7;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.profil {
+	background-color: #31363b;
+	overflow: auto;
+	box-shadow: 1px 1px 1px 0px #28282848, 4px 4px 4px 0px #5c5c5c4c;
+}
+
+.jmeno {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 24px;
+	color: white;
+	font-weight: bold;
+}
+
+.foto {
+	width: 250px;
+}
+
+.logo {
+	border-radius: 50%;
+	background-color: #b92e81;
+	position: absolute;
+	top: 170px;
+	left: 190px;
+	box-shadow: 0px 5px 4px 0.5px #262626;
+}
+
+.obsah {
+	padding: 10px 20px 20px 20px;
+}
+
+
+.odkazy {
+	font-family: 'Montserrat', sans-serif;
+	list-style-type: none;
+	text-transform: uppercase;
+	padding: 0px;
+	margin: 0px;
+	font-weight: bold; /*prijde mi, ze u odkazu a nadpisu BOLD FONT nefunguje, ale nevim proc =,(*/
+}
+
+.odkazy a {
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	padding: 10px;
+	color: #bdc3c7;
+	font-weight: bold;
+}
+
+.portfolio {
+	border-top: solid 1px #3f464d;
+	border-bottom: solid 1px #3f464d;
+}
+
+.portfolio:hover a {
+	background-color: #e74c3c;
+	color: white;
+}
+
+.facebook {
+	float: left;
+	width: 50%;
+	border-right: solid 1px #3f464d;
+}
+
+.facebook:hover a {
+	background-color: #3b5998;
+	color: white;
+}
+
+.twitter {
+	float: left;
+	width: 50%;
+}
+
+.twitter:hover a {
+	background-color: #1da1f2;
+	color: white;
 }
